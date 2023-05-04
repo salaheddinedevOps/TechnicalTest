@@ -1,0 +1,26 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#content{
+    margin: 0 auto;
+    
+}
+.fileInput{
+    width:50%;
+    border: 3px solid black;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.userForm{
+    width:100%;
+    padding: 3em 0;
+    text-align: center;
+    background-image: linear-gradient(rgb(11, 84, 152), white);
+    border-radius: 20px;
+}
+.submit{
+    background-image: linear-gradient(white, rgb(8, 54, 118));
+    border:none;
+    border-radius: 20px;
+}
