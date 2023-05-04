@@ -23,19 +23,19 @@ class Form extends React.Component{
 
         const url = 'http://localhost:3001/candidate';
 
-        const user = {
+        const users = {
 
             Firstname: this.state.Firstname, 
-            Firstname: this.state.Lastname, 
+            Lasttname: this.state.Lastname, 
         }
 
-        Axios.post(url, user).then((res) => {
+        Axios.post(url, users).then((res) => {
 
-            //handle your login 
+            res.send(users)
 
         }).catch((e) => {
 
-            //handle your errors
+            
         });
 
     }
